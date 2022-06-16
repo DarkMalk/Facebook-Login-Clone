@@ -7,7 +7,7 @@ Pagina realizada con:
 
 # Desktop Version
 
-![Image text] (./screenshots/"Screenshot from 2022-06-16 14-30-55.png")
+![Image text] (https://github.com/DarkMalk/FacebookLogin-clone/blob/main/screenshots/Screenshot%20from%202022-06-16%2014-30-55.png)
 
 # Mobile Version
 ![Image text] (./screenshots/"Screenshot (16-06-2022 2:31:51).png")
