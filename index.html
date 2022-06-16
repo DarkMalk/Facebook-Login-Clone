@@ -9,78 +9,90 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
     />
-    <link rel="stylesheet" href="./static/css/styles.css" />
+    <link rel="stylesheet" href="./static/css/index.css" />
   </head>
   <body>
-    <section id="container">
-      <div id="content-left">
-        <img src="./static/img/logo.svg" alt="logo Facebook" />
-        <p>Connect with friends and the world around you on Facebook.</p>
-      </div>
-      <div id="content-right">
-        <div id="card-login">
-          <form action="#">
-            <input type="text" placeholder="Email or phone number" autofocus />
-            <input type="password" name="password" placeholder="Password" />
-            <button type="submit" class="btn-login">Log In</button>
-          </form>
-          <a href="#">Forgot password?</a>
+    <main>
+      <section id="container">
+        <div id="content-left">
+          <img src="./static/img/logo.svg" alt="logo Facebook" />
+          <p>Connect with friends and the world around you on Facebook.</p>
+        </div>
+        <div id="content-right">
+          <div id="card-login">
+            <form action="#">
+              <input
+                type="text"
+                placeholder="Email or phone number"
+                name="email-or-phone"
+                autofocus
+              />
+              <input type="password" name="password" placeholder="Password" />
+              <button type="submit" class="btn-login">Log In</button>
+            </form>
+            <a href="#" id="forgot-password">Forgot password?</a>
+            <div id="line-separator"></div>
+            <button class="btn-CreateAccount">Create new account</button>
+          </div>
+          <p>
+            <a href="#" id="a-createpage">Create a Page</a> for a celebrity,
+            brand or business.
+          </p>
+        </div>
+      </section>
+      <footer>
+        <div id="footer-container">
+          <div id="idioms-selector">
+            <a href="#" id="selected-idiom">English (US)</a>
+            <a href="#">Español (España)</a>
+            <a href="#">Français (France)</a>
+            <a href="#">Português (Brasil)</a>
+            <a href="#">Deutsch</a>
+            <a href="#">Italiano</a>
+            <a href="#">中文(简体)</a>
+            <a href="#">Svenska</a>
+            <a href="#">العربية</a>
+            <a href="#">हिन्दी</a>
+            <a href="#">日本語</a>
+            <button>
+              <span class="material-symbols-outlined"> add </span>
+            </button>
+          </div>
           <div id="line-separator"></div>
-          <button class="btn-CreateAccount">Create new account</button>
+          <div>
+            <a href="#">Sign Up</a>
+            <a href="#">Log In</a>
+            <a href="#"></a>
+            <a href="#">Messenger</a>
+            <a href="#">Facebook Lite</a>
+            <a href="#">Watch</a>
+            <a href="#">Places</a>
+            <a href="#">Games</a>
+            <a href="#">Marketplace</a>
+            <a href="#">Facebook Pay</a>
+            <a href="#">Oculus</a>
+            <a href="#">Portal</a>
+            <a href="#">Instagram</a>
+            <a href="#">Bulletin</a>
+            <a href="#">Local</a>
+            <a href="#">Fundraisers</a>
+            <a href="#">Services</a>
+            <a href="#">Voting Information Center</a>
+            <a href="#">Groups</a>
+            <a href="#">About</a>
+            <a href="#">Create Page</a>
+            <a href="#">Developers</a>
+            <a href="#">Careers</a>
+            <a href="#">privacy</a>
+            <a href="#">Cookies</a>
+            <a href="#">Ad choices</a>
+            <a href="#">Terms</a>
+            <a href="#">Help</a>
+            <a href="#">Contact Uploading & Non-Users</a>
+          </div>
+          <p>Meta © 2022</p>
         </div>
-        <p><a href="#" id="a-createpage">Create a Page</a> for a celebrity, brand or business.</p>
-      </div>
-    </section>
-    <footer>
-      <div id="footer-container">
-        <div id="idioms-selector">
-          <a href="#">English (US)</a>
-          <a href="#">Español (España)</a>
-          <a href="#">Français (France)</a>
-          <a href="#">Português (Brasil)</a>
-          <a href="#">Deutsch</a>
-          <a href="#">Italiano</a>
-          <a href="#">中文(简体)</a>
-          <a href="#">Svenska</a>
-          <a href="#">العربية</a>
-          <a href="#">हिन्दी</a>
-          <a href="#">日本語</a>
-          <button><span class="material-symbols-outlined"> add </span></button>
-        </div>
-        <div id="line-separator"></div>
-        <div>
-          <a href="#">Sign Up</a>
-          <a href="#">Log In</a>
-          <a href="#"></a>
-          <a href="#">Messenger</a>
-          <a href="#">Facebook Lite</a>
-          <a href="#">Watch</a>
-          <a href="#">Places</a>
-          <a href="#">Games</a>
-          <a href="#">Marketplace</a>
-          <a href="#">Facebook Pay</a>
-          <a href="#">Oculus</a>
-          <a href="#">Portal</a>
-          <a href="#">Instagram</a>
-          <a href="#">Bulletin</a>
-          <a href="#">Local</a>
-          <a href="#">Fundraisers</a>
-          <a href="#">Services</a>
-          <a href="#">Voting Information Center</a>
-          <a href="#">Groups</a>
-          <a href="#">About</a>
-          <a href="#">Create Page</a>
-          <a href="#">Developers</a>
-          <a href="#">Careers</a>
-          <a href="#">privacy</a>
-          <a href="#">Cookies</a>
-          <a href="#">Ad choices</a>
-          <a href="#">Terms</a>
-          <a href="#">Help</a>
-          <a href="#">Contact Uploading & Non-Users</a>
-        </div>
-        <p>Meta © 2022</p>
-      </div>
-    </footer>
+      </footer>
+    </main>
   </body>
 </html>
