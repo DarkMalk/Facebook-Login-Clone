@@ -14,7 +14,7 @@
 }
 body {
   background-color: #f0f2f5;
-  overflow-x: hidden ;
+  overflow-x: hidden;
 }
 
 main {
@@ -72,7 +72,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-shadow: 2px 2px 2px 5px rgba(0,0,0,.05);
+  box-shadow: 2px 2px 5px 5px rgba(0, 0, 0, 0.02);
 }
 
 #card-login form {
@@ -177,7 +177,8 @@ footer {
 }
 
 #footer-container {
-  padding: 20px 0 100px 0;
+  padding: 20px 10px 100px 10px;
+  margin: 0 10px 0 10px;
   max-width: 1024px;
   margin: 0 auto;
   text-align: start;
@@ -220,4 +221,23 @@ footer {
 
 #selected-idiom {
   font-weight: 500;
+}
+
+@media (max-width: 1024px) {
+  #container {
+    max-width: 1024px;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  #content-left {
+    margin: 0;
+    padding: 0;
+    align-items: center;
+  }
+  #content-right {
+    margin: 0;
+    padding: 0;
+  }
 }
